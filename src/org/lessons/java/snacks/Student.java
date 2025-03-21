@@ -55,5 +55,10 @@ public class Student {
         return null;
     }
     }
+    
+    //converte in stringa leggibile
+    public String toString() {
+        return firstname + " " + lastname + " " + age;
+    }
 
 }
